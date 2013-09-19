@@ -16,3 +16,5 @@ int main(){
 	c=summ(a,b);
 	return 0;
 }
+
+//end of homework
