@@ -2,6 +2,10 @@
 
 import sys
 
+def subtr(a,b):
+	c = a-b
+	print "Subtraction result:", c
+	return c
 
 def main():
 	print "Command-line arguments:"
@@ -14,8 +18,7 @@ def main():
 	except ValueError:
 		print "Unexpected value."
 		return
-	z = x-y
-	print "Subtraction result:", z
+	z = subtr(x,y)
 
 if __name__ == "__main__":
 	main()
