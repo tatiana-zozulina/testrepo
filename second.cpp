@@ -1,6 +1,11 @@
 #include<iostream>
 using namespace std;
 
+int summ(int a; int b){
+	a=a+b;
+	cout<<"Summ:"<<a<<endl;
+	return a;
+}
 
 int main(){
 	int a,b,c;
@@ -8,7 +13,6 @@ int main(){
 	cin>>a;
 	cout<<"Pleas enter second number:"<<endl;
 	cin>>b;
-	c=a+b;
-	cout<<"Summ:"<<c<<endl;
+	c=summ(a,b);
 	return 0;
 }
